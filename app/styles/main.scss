@@ -1,0 +1,31 @@
+@use "node_modules/@bbva-web-components/bbva-foundations-sass/main" as *;
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+demo-app-container:not(:defined) {
+  display: none;
+}
+
+demo-app-container:defined {
+  display: block;
+}

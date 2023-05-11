@@ -1,0 +1,45 @@
+{
+  "name": "first-cells-app",
+  "version": "0.1.0",
+  "keywords": [
+    "cells-app"
+  ],
+  "dependencies": {
+    "@bbva-web-components/bbva-core-icon": "^1.5.1",
+    "@bbva-web-components/bbva-core-intl-mixin": "^1.5.4",
+    "@bbva-web-components/bbva-core-lit-helpers": "^1.4.0",
+    "@bbva-web-components/bbva-core-scoping-ambients-shim": "^1.0.4",
+    "@bbva-web-components/bbva-foundations-grid-default-layout": "^1.0.1",
+    "@bbva-web-components/bbva-foundations-icons": "^1.16.0",
+    "@bbva-web-components/bbva-foundations-theme": "^2.4.7",
+    "@bbva-web-components/bbva-header-main": "^7.8.9",
+    "@bbva-web-components/bbva-navigation-menu": "^3.10.4",
+    "@bbva-web-components/bbva-web-amount": "^1.3.3",
+    "@bbva-web-components/bbva-web-badge-variability": "^1.2.1",
+    "@bbva-web-components/bbva-web-button-default": "^1.5.0",
+    "@bbva-web-components/bbva-web-clip-card": "^1.2.3",
+    "@bbva-web-components/bbva-web-divider": "^1.0.5",
+    "@bbva-web-components/bbva-web-form-password": "^1.2.0",
+    "@bbva-web-components/bbva-web-form-text": "^1.1.0",
+    "@bbva-web-components/bbva-web-form-toggle": "^1.1.1",
+    "@bbva-web-components/bbva-web-link": "^1.6.1",
+    "@bbva-web-components/bbva-web-list-item-card": "^1.1.3",
+    "@bbva-web-components/bbva-web-list-item-movement": "^1.2.4",
+    "@bbva-web-components/bbva-web-notification-toast": "^1.0.10",
+    "@bbva-web-components/bbva-web-panel-button": "^1.0.8",
+    "@bbva-web-components/bbva-web-panel-multistep-offer": "^1.0.7",
+    "@cells-demo/demo-data-dm": "^1.0.0",
+    "@cells-demo/demo-app-container": "^1.0.0",
+    "@cells-demo/demo-app-template": "^1.0.0",
+    "@cells-demo/demo-menu-container": "^1.0.0",
+    "@cells/cells-bridge": "^3.19.2",
+    "@cells/cells-element": "^1.5.0",
+    "@cells/cells-page": "^1.5.0",
+    "@webcomponents/webcomponentsjs": "^2.7.0",
+    "cells-app-template": "^6.0.0",
+    "lit-element": "^2.0.0"
+  },
+  "devDependencies": {
+    "@cells/cells-component-core": "^3.2.0"
+  }
+}

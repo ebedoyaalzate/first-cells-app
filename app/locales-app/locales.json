@@ -1,0 +1,95 @@
+{
+  "es": {
+    "login-page.title": "Login",
+    "login-page.help": "Ayuda",
+    "login-page.user-input-label": "NIF, NIE, Tarjeta o Pasaporte",
+    "login-page.user-password-label": "Clave de acceso",
+    "login-page.forget-password": "¿Has olvidado tu clave de acceso?",
+    "login-page.button": "Iniciar sesion",
+    "login-page.client-button": "Hazte cliente",
+
+    "help-page.title": "Ayuda",
+    "help-page.text": "Aplicación de ejemplo donde se muestran las capacidades de la disciplina y el uso de Cells Bridge como librería de construcción de aplicaciones basadas en Web Components (implementadas en LitElement!)",
+    "help-page.first-li": "Construcción de una aplicación utilizando páginas declarativas (y sus hooks!), basadas integramente en LitElement.",
+    "help-page.second-li": "Navegación, paso de parámetros entre páginas.",
+    "help-page.third-li": "Uso de módulos (DataManagers, Utils).",
+    "help-page.fourth-li": "Creación y reutilización de componentes LitElement (@bbva-web-components)",
+    "help-page.fifth-li": "¡Incluye proyecto de tests E2E basado en las últimas herramientas de la disciplina! (Cells Pepino V2, Testing Framework)",
+    "help-page.header-text": "Hecho con ❤️ por el equipo de Cells",
+
+    "dashboard-page.title": "Posición Global",
+    "dashboard-page.account-title": "Cuentas",
+    "dashboard-page.cards-title": "Tarjetas",
+    "dashboard-page.cards-item-title": "Tarjeta",
+
+    "movements-page.title": "Cuentas",
+    "movements-page.account-movements": "Movimientos de cuenta",
+
+    "cards-page.title": "Tarjetas",
+    "cards-page.cards-item-title": "Tarjeta",
+    "cards-page.cards-movements": "Movimientos de tarjeta",
+
+    "settings-page.title": "Ajustes",
+    "settings-page.header-text": "Ajustes",
+    "settings-page.save": "Actualizando preferencias",
+    "settings-page.language-1": "Castellano",
+    "settings-page.language-2": "Ingles",
+    "settings-page.mode-dark": "Modo oscuro",
+
+    "menu.settings": "Ajustes",
+    "menu.dashboard": "Posición Global",
+    "menu.account-movements": "Movimientos de Cuenta",
+    "menu.card-movements": "Movimientos de tarjeta",
+    "pages.return-text": "Volver"
+  },
+
+  "en": {
+    "login-page.title": "Login",
+    "login-page.help": "Help",
+    "login-page.user-input-label": "NIF, NIE, Card o Passport",
+    "login-page.user-password-label": "Password",
+    "login-page.forget-password": "Forgot password?",
+    "login-page.button": "Sign in",
+    "login-page.client-button": "Become a customer",
+
+    "help-page.title": "Help",
+    "help-page.text": "Example application showing the capabilities of the discipline and the use of Cells Bridge as a library for building applications based on Web Components (implemented in LitElement!)",
+    "help-page.first-li": "Construction of an application using declarative pages (and their hooks!), based entirely on LitElement!",
+    "help-page.second-li": "Navigation, parameter passing between pages.",
+    "help-page.third-li": "Use of modules (DataManagers, Utils).",
+    "help-page.fourth-li": "Creation and reuse of LitElement components (@bbva-web-components).",
+    "help-page.fifth-li": "Includes E2E test project based on the latest tools in the discipline! (Cells Pepino V2, Testing Framework).",
+    "help-page.header-text": "Made with ❤️ by Cells Team",
+
+    "dashboard-page.title": "Dashboard",
+    "dashboard-page.account-title": "Accounts",
+    "dashboard-page.cards-title": "Cards",
+    "dashboard-page.cards-item-title": "Card",
+
+    "movements-page.title": "Accounts",
+    "movements-page.account-movements": "Account movements",
+
+    "cards-page.title": "Cards",
+    "cards-page.cards-item-title": "Card",
+    "cards-page.cards-movements": "Cards movements",
+
+    "settings-page.title": "Settings",
+    "settings-page.header-text": "Settings",
+    "settings-page.save": "Update preferencies",
+    "settings-page.language-1": "Spanish",
+    "settings-page.language-2": "English",
+    "settings-page.mode-dark": "Dark Mode",
+
+    "bbva-navigation-menu-notification-one": "Notification",
+    "bbva-navigation-menu-notification-multiple": "Notifications",
+    "bbva-navigation-menu-profile": "Profile",
+    "bbva-navigation-menu-login": "Log in",
+    "bbva-navigation-menu-logout": "Log out",
+
+    "menu.settings": "Settings",
+    "menu.dashboard": "Dashboard",
+    "menu.account-movements": "Account Movement",
+    "menu.card-movements": "Card Movement",
+    "pages.return-text": "Back"
+  }
+}

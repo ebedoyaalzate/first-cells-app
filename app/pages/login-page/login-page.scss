@@ -1,0 +1,33 @@
+@use "node_modules/@bbva-web-components/bbva-foundations-sass/main" as *;
+
+[slot='app-main-content'] {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+.main-inputs {
+  margin: auto 0;
+  .input {
+    margin-bottom: 1rem;
+  }
+}
+
+.input-link {
+  display: block;
+  text-align: right;
+}
+
+.main-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .input {
+    margin-bottom: 1rem;
+    min-width: 13rem;
+  }
+}

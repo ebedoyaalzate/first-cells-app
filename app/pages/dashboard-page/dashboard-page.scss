@@ -1,0 +1,71 @@
+@use "node_modules/@bbva-web-components/bbva-foundations-sass/main" as *;
+
+.carrousel {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  overflow-x: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.carrousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  display: inline-block;
+  min-height: 5rem;
+  flex: 1 0 calc(50% - 1rem);
+  background-color: token('foundations.colors.primaryCoreDarkened');
+  color: #fff;
+  padding: 1rem 1rem;
+  &-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  &-link{
+    justify-content: flex-start;
+  }
+}
+
+.card:nth-child(n) {
+  margin: 1rem 0.25rem;
+}
+
+.account-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 3px 0 rgb(18 18 18 / 20%);
+  margin: 2rem 0;
+  &-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    color: token('foundations.colors.secondary600');
+    text-transform: uppercase;
+
+    font-size: .875rem;
+    line-height: 1.5rem;
+  }
+  .card-item{
+    padding: 1rem;
+    cursor: pointer;
+    .card-holder {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0.5rem;
+      span {
+        margin-top: 0.5rem;
+      }
+    }
+    &-title{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
